@@ -24,7 +24,7 @@ public class DeleteEmpServlet extends HttpServlet {
             request.setAttribute("successCode", "deleteEmp");
         } else {
             path = "/WEB-INF/views/common/errorPage.jsp";
-            request.setAttribute("message", "직ㄴㄴ222ㄴㄴㄴㄴㄴ원 삭제 실패!");
+            request.setAttribute("message", "직22ㄴㄴ222ㄴㄴㄴㄴㄴ원 삭제 실패!");
         }
 
         request.getRequestDispatcher(path).forward(request, response);
